@@ -9,7 +9,7 @@ class Usuario {
     required this.nombre,
     required this.edad,
     required this.profesiones,
-  });
+  }) : assert (nombre.isNotEmpty);
 
   
 }
